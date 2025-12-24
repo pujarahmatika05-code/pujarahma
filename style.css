@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #FDB5CE; /* Warna khas Telkom University */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #FDB5CE;
+    border-bottom: 2px solid #FDB5CE;
+    padding-bottom: 5px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+}
+
+.device-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #FDB5CE;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #FDB5CE;
+}
+
+.source {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
